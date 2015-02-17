@@ -3,6 +3,7 @@ var qs = require('querystring');
 var request = require('request');
 
 var Strains = require('./strains');
+var Locations = require('./locations');
 
 module.exports = function(options) {
   if(!options) {
@@ -48,5 +49,6 @@ module.exports = function(options) {
   }
 
   this.strains = new Strains(this);
+  this.locations = new Locations(this);
 
 }
