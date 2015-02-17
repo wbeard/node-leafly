@@ -2,7 +2,7 @@
   "name": "node-leafly",
   "version": "0.0.1",
   "description": "A node binding for leafly.com",
-  "main": "index.js",
+  "main": "src/api.js",
   "scripts": {
     "test": "jest"
   },
