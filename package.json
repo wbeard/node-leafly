@@ -1,0 +1,28 @@
+{
+  "name": "node-leafly",
+  "version": "0.0.1",
+  "description": "A node binding for leafly.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "leafly",
+    "cannabis",
+    "marijuana",
+    "api"
+  ],
+  "author": "William Beard <disenno@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^0.1.37",
+    "lodash": "^3.2.0",
+    "q": "^1.1.2",
+    "querystring": "^0.2.0",
+    "request": "^2.53.0"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "http://github.com/wbeard/node-leafly.git"
+  }
+}
